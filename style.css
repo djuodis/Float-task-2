@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    text-align:left;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+article {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-inline: 20px;
+    border: 1px solid lightgray;
+    border-top: 5px solid lightgray;
+    border-radius: 0px 0px 5px 5px;
+    max-width: 300px;
+    background: white;
+    float: left;
+} 
+article.isaac {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0974b3;
+}
+ 
+img {
+    width: 150px;
+    height: 200px;
+    overflow: clip;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+q {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.button {
+   background: #0974b3;
+   border: 0;
+   cursor: pointer;
+   padding-inline:60px;
+   border-radius: 30px 0;
+   width: 100%;
+   height: 70px;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+div.years {
+    padding-bottom: 20px;
+}   
+
+article:hover {
+    transition: 0.3s;
+    border: 1px solid lightgray;
+    border-top: 5px solid #0974b3;
+    margin-top: -10px ;
+}
+
+.button:hover {
+    background: #064468;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity:0.5;
+  } 
+
+   .container:hover .middle {
+    opacity: 1;
+   }  
+
+  img.zoom {
+    padding-top: 77px;
+    padding-bottom: 80px;
+    padding-inline: 50px;
+    height: 200px;
+    width: 130px;
+    background-color:#000;
+    opacity:0.5;
+    z-index: 100;
+  }
+ 
+
